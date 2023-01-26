@@ -1,0 +1,61 @@
+body{
+    background-image: url("images/backgraund.webp");
+    background-position: center;
+    background-attachment: fixed;
+    background-size: 1500px;
+    overflow: hidden;
+}
+
+.popup{
+    width: 400px;
+    background-color: white;
+    border-radius: 6px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%) ;
+    text-align: center;
+    padding: 0 30px 30px;
+    color: #333;
+}
+.containers{
+    display: none;
+}
+.container img{
+    width: 100px;
+}
+button{
+    background-color: green;
+    color: white;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+span{
+    background-color: blueviolet;
+    text-align: center;
+    padding: 10px;
+    color: aqua;
+    border-radius: 10px;
+    width: 120px;
+}
+
+.time{
+    display: flex;
+    justify-content: space-around;
+}
+
+#birds img{
+    position: absolute;
+    width: 180px;
+}
+
+.bomb img{
+    position: absolute;
+    width: 80px;
+}
+
+body > div.popup{
+    display: none;
+}
+

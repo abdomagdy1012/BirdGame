@@ -1,0 +1,70 @@
+body{
+    background-image: url("images/213-2132894_angry-bird-backgrounds-background-game-angry-bird.png");
+    background-position: center;
+    background-attachment: fixed;
+    background-size: 1500px;
+}
+
+div{
+    background-color:cornflowerblue ;
+    text-align: center;
+    padding-top: 1px;
+    width: 500px;
+    margin: auto;
+    opacity: 0.8;
+    border-radius: 10px;
+}
+
+label h1{
+    padding-top: 30px;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+#game{
+    padding: 10px;
+    width: 200px;
+    border-radius: 11px;
+}
+input.text{
+    padding: 5px;
+    width: 200px;
+    border-radius: 11px;
+}
+
+button{
+    color: green;
+    background-color: white;
+    padding: 5px;
+    width: 70px;
+    margin-top: 10px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+.div{
+    margin-top: 10px;
+}
+.div img{
+    width: 50px;
+}
+.div span{
+    color: blue;
+    font-size: 40px;
+    font-weight: bold;
+}
+.div .black{
+    color: darkgoldenrod;
+}
+.div .blue{
+    color: red;
+}
+h1{
+    padding: 0;
+    margin: 0;
+}
+
+body > div:nth-child(3){
+    background-color: cornflowerblue;
+    margin-top: 5px;
+}
